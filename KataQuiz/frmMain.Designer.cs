@@ -46,16 +46,16 @@
             // 
             // txtAnswer
             // 
-            this.txtAnswer.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtAnswer.Location = new System.Drawing.Point(66, 52);
+            this.txtAnswer.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtAnswer.Location = new System.Drawing.Point(71, 67);
             this.txtAnswer.Name = "txtAnswer";
-            this.txtAnswer.Size = new System.Drawing.Size(85, 35);
+            this.txtAnswer.Size = new System.Drawing.Size(85, 62);
             this.txtAnswer.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(8, 67);
+            this.label2.Location = new System.Drawing.Point(13, 82);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(45, 13);
             this.label2.TabIndex = 2;
@@ -64,16 +64,16 @@
             // lblPrompt
             // 
             this.lblPrompt.AutoSize = true;
-            this.lblPrompt.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPrompt.Font = new System.Drawing.Font("Microsoft Sans Serif", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblPrompt.Location = new System.Drawing.Point(61, 9);
             this.lblPrompt.Name = "lblPrompt";
-            this.lblPrompt.Size = new System.Drawing.Size(162, 29);
+            this.lblPrompt.Size = new System.Drawing.Size(318, 55);
             this.lblPrompt.TabIndex = 3;
             this.lblPrompt.Text = "<ThePrompt>";
             // 
             // btnSubmit
             // 
-            this.btnSubmit.Location = new System.Drawing.Point(11, 93);
+            this.btnSubmit.Location = new System.Drawing.Point(15, 135);
             this.btnSubmit.Name = "btnSubmit";
             this.btnSubmit.Size = new System.Drawing.Size(140, 35);
             this.btnSubmit.TabIndex = 4;

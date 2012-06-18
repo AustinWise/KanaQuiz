@@ -33,6 +33,7 @@ namespace KataQuiz
             if (!txtAnswer.Text.Equals(answer))
             {
                 MessageBox.Show("Nope");
+                txtAnswer.SelectAll();
                 return;
             }
             loadNewQuestion();
@@ -40,8 +41,9 @@ namespace KataQuiz
 
         private void loadNewQuestion()
         {
-            mCurrentKana = mAllKana[ran.Next(mAllKana.Count)];
-            mIsAnswerRomanji = ran.NextDouble() > 0.5;
+            int kanaCount = 10; //mAllKana.Count;
+            mCurrentKana = mAllKana[ran.Next(kanaCount)];
+            mIsAnswerRomanji = true;// ran.NextDouble() > 0.5;
 
             lblPrompt.Text = mIsAnswerRomanji ? mCurrentKana.Hiragana : mCurrentKana.Romaji;
             txtAnswer.Clear();
